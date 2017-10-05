@@ -10,10 +10,17 @@ namespace Iterator
     {
         static void Main(string[] args)
         {
-            List<String> list = new List<string>();
+            CustomList list = new CustomList();
+            list.Elements = new List<string>() { "Hey", "How", "Are", "Doing" };
 
-            IEnumerator<String> enumerator = list.GetEnumerator();
-          
+            IIterator iterator = list.getIterator();
+            while (iterator.hasNext())
+            {
+                Console.WriteLine("Current Value " + iterator.getCurrent());
+                iterator.moveNext();
+            }
+
+
         }
     }
 }
