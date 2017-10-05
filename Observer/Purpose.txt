@@ -1,0 +1,1 @@
+﻿Way of notifying many classes on change

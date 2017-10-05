@@ -1,0 +1,3 @@
+﻿Rather clients talking to each other, flow happens via central mediator
+
+Example : Air traffic controller and flights

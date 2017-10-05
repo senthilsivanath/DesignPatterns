@@ -1,0 +1,3 @@
+﻿Save class representation to external entity, so that it can be restore later without violating encapsulation
+
+Example : DrawingBoard

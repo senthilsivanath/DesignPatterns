@@ -1,0 +1,1 @@
+﻿Provide sequential access to a collection, without exposing the underlying collection directly

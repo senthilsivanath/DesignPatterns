@@ -1,0 +1,3 @@
+﻿Define strategy or algorithm dynamically
+or
+Encapsulate algorithm inside a class
